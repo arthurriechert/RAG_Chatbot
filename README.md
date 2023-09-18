@@ -1,10 +1,17 @@
 # RAG_Chatbot
 
+## Description
 Retrieval Augmented Generation (RAG) is one of the latest solutions to resolving the built-in context limits in traditional large language models like ChatGPT. It aims to introduce context from outside sources of information by using algorithms to query for outside information such as adding context from a search engine retrieval or from data stored in a vector database.
 
 This project implements my own interpretation of the solution. 
 
 The user will be able to add additional context to chatbot generations by uploading a PDF, and the chatbot's knowledge of the user will grow as the user continues using it.
+
+## How to Run
+
+Copy and paste this line into your terminal:
+
+`https://github.com/arthurriechert/RAG_Chatbot/blob/main/src/main.py`
 
 ## APIs
 - **Pinecone**: Vector database solution. Query to add additional context for the generation.
