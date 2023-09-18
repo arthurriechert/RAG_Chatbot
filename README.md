@@ -16,10 +16,10 @@ Then, you will need API keys for Pinecone and OpenAI.
 After, create a Pinecone index, and name it "chat."
 
 Create a folder named `.streamlit` in the `src ` folder. Inside `.streamlit`, create a `secrets.toml` file. Input your API keys as follows:
-`openai_api_key="api_key"
-pinecone_api_key="api_key"
-pinecone_environ="gcp-starter"
-`
+`openai_api_key="api_key"`
+`pinecone_api_key="api_key"`
+`pinecone_environ="gcp-starter"`
+
 _Replace with actual keys_
 
 ## APIs
