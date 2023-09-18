@@ -11,9 +11,9 @@ The user will be able to add additional context to chatbot generations by upload
 
 First, make sure your computer has Streamlit installed.
 
-Then, copy and paste this line into your terminal:
+Then, you will need API keys for Pinecone and OpenAI.
 
-`streamlit run https://github.com/arthurriechert/RAG_Chatbot/blob/main/src/main.py`
+
 
 ## APIs
 - **Pinecone**: Vector database solution. Query to add additional context for the generation.
