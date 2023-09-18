@@ -9,9 +9,11 @@ The user will be able to add additional context to chatbot generations by upload
 
 ## How to Run
 
-Copy and paste this line into your terminal:
+First, make sure your computer has Streamlit installed.
 
-`https://github.com/arthurriechert/RAG_Chatbot/blob/main/src/main.py`
+Then, copy and paste this line into your terminal:
+
+`streamlit run https://github.com/arthurriechert/RAG_Chatbot/blob/main/src/main.py`
 
 ## APIs
 - **Pinecone**: Vector database solution. Query to add additional context for the generation.
