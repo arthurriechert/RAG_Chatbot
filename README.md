@@ -31,7 +31,7 @@ _Replace with actual keys_
 1) Upload PDFs for additional context.
 2) User will type message in Streamlit interface.
 3) The user's message is vectorized using OpenAI's embedding engine.
-4) Vectorized message is used to query Pinecone DB and retrieve relevant context.
+4) Vectorized message is used to query Pinecone DB and retrieve 3 nearest neighbors.
 5) Context is added to a data structure with last message and system message.
 6) Context is sent to GPT-4 to create a completion.
 7) The latest message is inserted into the Pinecone index to be retrieved for future tasks.
